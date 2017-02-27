@@ -69,4 +69,22 @@
         android:layout_height="wrap_content"
         android:onClick="iteratorPattern"
         android:text="Iterator Pattern" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="builderPattern"
+        android:text="Builder Pattern" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="singletonPattern"
+        android:text="Singleton Pattern" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="prototypePattern"
+        android:text="Prototype Pattern" />
 </LinearLayout>

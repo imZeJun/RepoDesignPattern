@@ -4,15 +4,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.demo.zejun.repodesignpattern.abstractfactorypattern.AbstractFactoryPatternSimulator;
-import com.demo.zejun.repodesignpattern.adapterpattern.AdapterPattenSimulator;
-import com.demo.zejun.repodesignpattern.decoratorpattern.DecoratorPatternSimulator;
-import com.demo.zejun.repodesignpattern.factorypattern.FactoryPatternSimulator;
-import com.demo.zejun.repodesignpattern.iteratorpattern.IteratorPattermSimulator;
-import com.demo.zejun.repodesignpattern.observerpattern.ObserverPatternSimulator;
-import com.demo.zejun.repodesignpattern.simplefactorypattern.SimpleFactoryPatternSimulator;
-import com.demo.zejun.repodesignpattern.strategypattern.StrategyPatternSimulator;
-import com.demo.zejun.repodesignpattern.templatemethodpattern.TemplateMethodPatternSimulator;
+import com.demo.zejun.repodesignpattern.creationalpattern.abstractfactorypattern.AbstractFactoryPatternSimulator;
+import com.demo.zejun.repodesignpattern.creationalpattern.prototypepattern.PrototypeSimulator;
+import com.demo.zejun.repodesignpattern.structuralpattern.adapterpattern.AdapterPattenSimulator;
+import com.demo.zejun.repodesignpattern.creationalpattern.builderpattern.BuilderPatternSimulator;
+import com.demo.zejun.repodesignpattern.structuralpattern.decoratorpattern.DecoratorPatternSimulator;
+import com.demo.zejun.repodesignpattern.creationalpattern.factorypattern.FactoryPatternSimulator;
+import com.demo.zejun.repodesignpattern.behavioralpattern.iteratorpattern.IteratorPattermSimulator;
+import com.demo.zejun.repodesignpattern.behavioralpattern.observerpattern.ObserverPatternSimulator;
+import com.demo.zejun.repodesignpattern.creationalpattern.simplefactorypattern.SimpleFactoryPatternSimulator;
+import com.demo.zejun.repodesignpattern.behavioralpattern.strategypattern.StrategyPatternSimulator;
+import com.demo.zejun.repodesignpattern.behavioralpattern.templatemethodpattern.TemplateMethodPatternSimulator;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -60,5 +62,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void iteratorPattern(View view) {
         IteratorPattermSimulator.run();
+    }
+
+    public void builderPattern(View view) {
+        BuilderPatternSimulator.run();
+    }
+
+    public void prototypePattern(View view) {
+        PrototypeSimulator.run();
     }
 }
