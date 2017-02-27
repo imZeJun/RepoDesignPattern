@@ -3,6 +3,12 @@ package com.demo.zejun.repodesignpattern;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.demo.zejun.repodesignpattern.behavioralpattern.chainofresponsibilitypattern.ChainOfResponsibilityPatternSimulator;
+import com.demo.zejun.repodesignpattern.behavioralpattern.commandpattern.CommandPatternSimulator;
+import com.demo.zejun.repodesignpattern.behavioralpattern.mediatorpattern.MediatorPatternSimulator;
+import com.demo.zejun.repodesignpattern.behavioralpattern.mementopattern.MementoPatternSimulator;
+import com.demo.zejun.repodesignpattern.behavioralpattern.statepattern.StatePatternSimulator;
 import com.demo.zejun.repodesignpattern.creationalpattern.abstractfactorypattern.AbstractFactoryPatternSimulator;
 import com.demo.zejun.repodesignpattern.creationalpattern.prototypepattern.PrototypeSimulator;
 import com.demo.zejun.repodesignpattern.structuralpattern.adapterpattern.AdapterPattenSimulator;
@@ -89,5 +95,25 @@ public class MainActivity extends AppCompatActivity {
 
     public void flyweightPattern(View view) {
         FlyweightPatternSimulator.run();
+    }
+
+    public void chainOfResponsibilityPattern(View view) {
+        ChainOfResponsibilityPatternSimulator.run();
+    }
+
+    public void commandPattern(View view) {
+        CommandPatternSimulator.run();
+    }
+
+    public void mementoPattern(View view) {
+        MementoPatternSimulator.run();
+    }
+
+    public void mediatorPattern(View view) {
+        MediatorPatternSimulator.run();
+    }
+
+    public void statePattern(View view) {
+        StatePatternSimulator.run();
     }
 }

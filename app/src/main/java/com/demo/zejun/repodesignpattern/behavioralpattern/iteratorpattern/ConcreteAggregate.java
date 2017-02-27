@@ -3,7 +3,7 @@ package com.demo.zejun.repodesignpattern.behavioralpattern.iteratorpattern;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ConcreateAggregate implements Aggregate {
+public class ConcreteAggregate implements Aggregate {
 
     private List<Object> mData = new ArrayList<>();
 

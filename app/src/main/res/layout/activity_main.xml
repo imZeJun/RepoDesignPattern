@@ -111,4 +111,34 @@
         android:layout_height="wrap_content"
         android:onClick="flyweightPattern"
         android:text="Flyweight Pattern" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="chainOfResponsibilityPattern"
+        android:text="Chain Of Responsibility Pattern" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="commandPattern"
+        android:text="Command Pattern" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mementoPattern"
+        android:text="Memento Pattern" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mediatorPattern"
+        android:text="Mediator Pattern" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="statePattern"
+        android:text="State Pattern" />
 </LinearLayout>
