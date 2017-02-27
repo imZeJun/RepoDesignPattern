@@ -87,4 +87,28 @@
         android:layout_height="wrap_content"
         android:onClick="prototypePattern"
         android:text="Prototype Pattern" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="proxyPattern"
+        android:text="Proxy Pattern" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="bridgePattern"
+        android:text="Bridge Pattern" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="compositePattern"
+        android:text="Composite Pattern" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="flyweightPattern"
+        android:text="Flyweight Pattern" />
 </LinearLayout>
